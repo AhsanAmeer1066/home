@@ -1,0 +1,944 @@
+/*This is my CSS code*/
+
+/*This peice of code makes the menu*/
+
+
+/*Body background for home*/
+#back {
+	background-color:AntiqueWhite;
+}
+
+/*Body background for bio*/
+#back2 {
+	background-color:Turquoise;
+}
+
+/*Body background for hobbies*/
+#back3 {
+	background-color:DarkKhaki;
+}
+
+/*Body background for social*/
+#back4 {
+	background-color:Azure;
+}
+
+/*Menu Image*/
+.menu {
+	/*Dimensions*/
+	width:750px;
+	height:40px;
+	/*Position*/
+	position:absolute;
+	top:28px;             
+}
+.current_home {                /*Styles active home button*/
+	position:absolute; 
+	top:19px;
+	left:90px;                /*Adjusts postion*/
+	text-decoration:overline; /*Overlines item*/
+	font-family:"Courier New","Arial";      /*Sets font*/
+	color:black;
+}
+
+.current_refer {                /*Styles active References button*/
+	position:absolute; 
+	top:19px;
+	left:590px;                /*Adjusts postion*/
+	text-decoration:overline; /*Overlines item*/
+	font-family:"Courier New","Arial";      /*Sets font*/
+	color:black;
+}
+
+.menu_refer {                 /*Refer button*/
+	position:absolute; 
+	top:19px;
+	left:590px;                /*Adjusts postion*/
+	font-weight:lighter;      /*Font Weight*/
+	font-family:"Courier New","Arial";      /*Sets font*/
+	color:black;
+
+}
+
+.current_bio {               /*Styles active Bio*/
+	position:absolute; 
+	top:19px;
+	left:150px;                /*Adjusts postion*/
+	text-decoration:overline; /*Overlines item*/
+	font-family:"Courier New","Arial";      /*Sets font*/
+	color:black;
+}
+
+.current_hobbies {          /*Active hobby*/
+	/*Adjusts postion*/
+	position:absolute; 
+	top:19px;
+	left:310px;                
+	text-decoration:overline; /*Overlines item*/
+	font-family:"Courier New","Arial";      /*Sets font*/
+	color:black;
+}
+
+.current_social {         /*Active Social*/
+	/*Adjusts postion*/
+	position:absolute; 
+	top:19px;
+	left:400px;                
+	text-decoration:overline; /*Overlines item*/
+	font-family:"Courier New","Arial";      /*Sets font*/
+	color:black;
+}
+
+.current_feedback {       /*Active Feedback*/
+	/*Adjusts postion*/
+	position:absolute; 
+	top:19px;
+	left:480px;                
+	text-decoration:overline; /*Overlines item*/
+	font-family:"Courier New","Arial";      /*Sets font*/
+	color:black;
+}
+	
+
+
+.menu_home {                 /*Styles Home button*/
+	position:absolute; 
+	top:19px;
+	left:90px;                /*Adjusts postion*/
+	font-weight:lighter;      /*Font Weight*/
+	font-family:"Courier New","Arial";      /*Sets font*/
+	color:black;
+
+}
+
+.menu_bio {             /*Styles bio button*/
+	position:absolute;     /*Adjusts position*/
+	left:150px;
+	top:19px;
+	font-family:"Courier New","Arial"; /*Font Family*/
+	font-weight:lighter;       /*Font style*/
+	color:black;
+	
+}
+
+.menu_hobbies {          /*Hobby button styling*/
+	position:absolute;     /*Adjusts position*/
+	left:310px;
+	top:19px;
+	font-family:"Courier New","Arial"; /*Font Family*/
+	font-weight:lighter;       /*Font style*/
+	color:black;
+
+}
+
+.menu_social {             /*Social button*/
+	position:absolute;     /*Adjusts position*/
+	left:400px;
+	top:19px;
+	font-family:"Courier New","Arial"; /*Font Family*/
+	font-weight:lighter;       /*Font style*/
+	color:black;
+	
+}
+
+/*Creates some menu animations*/
+		
+.menu_school:hover, .menu_hobbies:hover, .menu_bio:hover, .menu_home:hover, .menu_feedback:hover,.menu_social:hover,.menu_refer:hover {
+	color:blue;
+	font-family:"Courier New","Arial";
+	font-weight:lighter;
+	font-size:20px;
+}
+	
+
+.menu_feedback {    /*Feedback button*/
+	position:absolute;     /*Adjusts position*/
+	left:480px;
+	top:19px;
+	font-family:"Courier New","Arial"; /*Font Family*/
+	font-weight:lighter;       /*Font style*/
+	color:black;
+	
+}
+	
+.intro {                   /*Creates an Title Square*/
+	/*Creates dimensions*/
+	width:200px;           
+	height:200px;
+	border:1px solid; /*Creates border*/
+	background-color:PowderBlue;   /*Background color*/
+	/*Adjust position*/
+	position:absolute; 
+	top:150px;
+	left:80px
+}
+
+.title {
+	/*Positions Text*/
+	position:absolute;
+	text-align:center;
+	top:50px;
+	right:-1px;
+	font-family:"Courier New","Arial"; /*Sets font*/
+}
+
+.emoji {
+	/*Positions Image*/
+	position:absolute;
+	right: 62.5%;
+    transform: translateX(50%);
+	top:150px;
+	border:1px solid Black; /*Sets border*/
+	width:383px;           /*Sets width*/
+	height:200px;          /*Sets height*/
+} 
+
+.ahsan {
+	/*Positions Image*/
+	position:absolute;
+	right:50px;
+	top:40px;
+
+}
+
+.bubble {
+	/*Sets dimensions*/
+	height: 100px;
+	width: 175px;
+	min-width: 50px;
+	/*Sets background-color*/
+	background-color: Green;
+	display: block;
+	margin: 0 auto;
+	/*Creates box dimensions*/
+	border-radius: 20px;
+	margin-top: 50px;
+	/*Font specifications*/
+	font-size: 20px;
+	font-family:"Times New Roman","Arial";
+	text-align: center;
+	/*Applys positions*/
+	position:absolute;
+	top:110px;
+	left:290px;
+}
+
+.pointer {
+	/*Sets dimensions*/
+	height: 40px;
+	width: 40px;
+	/*Sets background-color*/
+	background: Green;
+	/*Creates box dimensions*/
+	margin: 0 auto;
+	transform: rotate(-30deg);
+	border-radius: 0 0 12px 0;
+	margin-top: -22px;
+	/*Applys positions*/
+	position:absolute;
+	top:265px;
+	left:400px;
+}
+
+.blurred {
+	/*Sets background-color*/
+	background: gray;
+	/*Applys filter*/
+	filter: blur(20px);
+	/*Applys positions*/
+	position: relative;
+	top: -315px;
+	z-index: -1;
+}
+
+#welcome {
+	/*Set font*/
+	font-family:"Courier New","Arial";
+	/*Set position*/
+	position:absolute;
+	left:270px;
+	top:375px;
+}
+
+.welcome_message {
+	/*set Font*/
+	font-size:15px;
+	font-family:"Times New Roman","Arial";
+	/*Sets position*/
+	position:absolute;
+	left:50px;
+	top:420px;
+	/*Font align*/
+	text-align:center;
+}
+	
+.covid {
+	/*Resize Image*/
+	width:500px;
+	height:700px;
+	/*Positions remake*/
+	position:absolute;
+	right: 7%;
+    transform: translateX(7%);
+	top:150px;
+	margin-bottom:50px;
+}
+	
+.specs_title{
+	/*Text style*/
+	font-family:"Courier New","Arial";
+	/*Set position*/
+	position:absolute;
+	top:600px;
+	left:70px;
+
+}
+
+.specs{
+	/*Sets Text style*/
+	font-size:20px;
+	font-family:"Times New Roman","Arial";
+	/*Sets position*/
+	position:absolute;
+	top:650px;
+	left:220px;
+	text-align:center;
+	
+}
+
+.msg {
+	/*Text Style*/
+	font-family:"Courier New","Arial";
+	text-align:center;
+	font-weight:bold;
+	/*Set position*/
+	position:absolute;
+	Top:850px;
+	right:10px;
+	/*Sets bottom margin*/
+	margin-bottom:30px;
+}
+	
+.intra_1 {
+	/*Text Style*/
+	font-weight:bolder;
+	font-size:50px;
+	/*Position*/
+	position:absolute;
+	bottom:-350px;
+
+}
+
+
+.heading {
+	/*Text Style*/
+	font-size:50px;
+	/*Positions*/
+	position:absolute;
+	top:50px;
+	left:75px;
+	
+}
+
+.bio_open {
+ 	/*Font Style*/
+	font-family:"Times New Roman","Arial";
+	font-size:15px;
+	/*Sets Position*/
+	position:absolute;
+	top:150px;
+	left:80px;
+}
+
+.birth {
+	/*Font Styling*/
+	font-family: "Courier New","Arial";
+	/*Set position*/
+	position:absolute;
+	left:75px;
+	top:250px;
+}
+
+.birth_message {
+	/*Sets position*/
+	position:absolute;
+	left:75px;
+	top:305px;
+	/*FOnt Style*/
+	font-family: "Times New Roman","Arial";
+}
+
+table, th, td {
+	/*Sets border*/
+	border:2px solid black;
+
+}
+
+.school {
+	/*Font Style*/
+	font-family: "Courier New","Arial";
+	/*Set position*/
+	position:absolute;
+	left:75px;
+	top:400px;
+}
+
+.school_message {
+	/*Sets position*/
+	position:absolute;
+	left:55px;
+	top:450px;
+}
+
+.food {
+	/*Font Style*/
+	font-family: "Courier New","Arial";
+	/*Set Position*/
+	position:absolute;
+	left:75px;
+	top:720px;
+}
+
+.food_list {           
+	/*Sets position*/
+	position:absolute;
+	left:55px;
+	top:760px;
+}
+	
+.free {
+	/*Font Style*/
+	font-family: "Courier New","Arial";
+	/*Set Position*/
+	position:absolute;
+	left:75px;
+	top:880px;
+}
+
+.free_message {
+	/*Sets position*/
+	position:absolute;
+	left:50px;
+	top:930px;
+}
+
+.intra_2 {
+	/*Text Style*/
+	font-weight:bolder;
+	font-size:50px;
+	/*Position*/
+	position:absolute;
+	bottom:-680px;
+	right:50px;
+}
+
+.reason {
+	/*Font Style*/
+	font-family: "Courier New","Arial";
+	/*Set Position*/
+	position:absolute;
+	left:70px;
+	top:1070px;
+}	
+
+.reason_list {
+	/*Sets position*/
+	position:absolute;
+	left:50px;
+	top:1125px;
+}
+
+.physical {
+	/*Sets position*/
+	position:absolute;
+	top:200px;
+	left:75px;
+}
+
+.phys_intro {
+	/*Sets Position*/
+	position:absolute;
+	top:240px;
+	left:75px;
+}
+
+.lst {
+	/*Sets Position*/
+	position:absolute;
+	top:270px;
+	left:75px;
+}
+
+.gaming {
+	/*Sets position*/
+	position:absolute;
+	top:420px;
+	left:75px;
+}
+
+.gaming_intro {
+	/*Sets Position*/
+	position:absolute;
+	top:460px;
+	left:75px;
+}
+
+.gaming_content {
+	/*Sets Position*/
+	position:absolute;
+	top:495px;
+	left:75px;
+}
+
+.tv {
+	/*Sets position*/
+	position:absolute;
+	top:750px;
+	left:75px;
+}
+
+.tv_intro {
+	/*Sets Position*/
+	position:absolute;
+	top:790px;
+	left:75px;
+}
+
+.tv_content {
+	/*Sets Position*/
+	position:absolute;
+	top:820px;
+	left:75px;
+}
+
+.music {
+	/*Sets position*/
+	position:absolute;
+	top:1000px;
+	left:75px;
+}
+
+.music_intro {
+	/*Sets Position*/
+	position:absolute;
+	top:1050px;
+	left:75px;
+}
+
+.music_content {
+	/*Sets Position*/
+	position:absolute;
+	top:1080px;
+	left:75px;
+}
+
+.intra_3 {
+	/*Text Style*/
+	font-weight:bolder;
+	font-size:50px;
+	/*Position*/
+	position:absolute;
+	bottom:-720px;
+}
+
+.li {
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+.insta {                       /*Insta account*/
+	/*Defines Position*/
+	position:absolute;
+	top:350px;
+	left:100px;
+	
+}
+
+.instagram { /*logo*/
+	/*Size*/
+	width:270px;
+	/*position*/
+	position:absolute;
+	top:300px;
+	left:100px;
+	
+}
+
+.instagram:hover {   /*Logo Animation*/
+	opacity:0;
+}
+
+.twitter_account {        /*account*/
+	/*Defines Position*/
+	position:absolute;
+	top:350px;
+	left:500px;
+	
+}
+
+.twitter_logo {   /*logo*/
+	/*Size*/
+	width:270px;
+	/*position*/
+	position:absolute;
+	top:300px;
+	left:500px;
+	
+}
+
+.twitter_logo:hover { /*Logo Animation*/
+	opacity:0;
+}
+
+.pinterest_account {        /*account*/
+	/*Defines Position*/
+	position:absolute;
+	top:350px;
+	left:900px;
+	
+}
+ 
+.pinterest_logo {      /*logo*/
+	/*Size*/
+	width:290px;
+	/*position*/
+	position:absolute;
+	top:290px;
+	left:870px;
+	
+}
+
+.pinterest_logo:hover { /*Logo Animation*/
+	opacity:0;
+}
+
+.discord_account {        /*account*/
+	/*Defines Position*/
+	position:absolute;
+	top:790px;
+	left:950px;
+	
+}
+ 
+.discord_logo {      /*logo*/
+	/*Size*/
+	width:290px;
+	/*position*/
+	position:absolute;
+	top:700px;
+	left:870px;
+	margin-bottom: 20px;
+	
+}
+
+.discord_logo:hover { /*Logo Animation*/
+	opacity:0;
+}
+
+.gmail_account {        /*account*/
+	/*Defines Position*/
+	position:absolute;
+	top:790px;
+	left:550px;
+	
+}
+ 
+.gmail_logo {      /*logo*/
+	/*Size*/
+	width:290px;
+	/*position*/
+	position:absolute;
+	top:750px;
+	left:500px;
+	margin-bottom: 20px;
+	
+}
+
+.gmail_logo:hover { /*Logo Animation*/
+	opacity:0;
+}
+
+.spotify_account {        /*account*/
+	/*Defines Position*/
+	position:absolute;
+	top:810px;
+	left:180px;
+	
+}
+ 
+.spotify_logo {      /*logo*/
+	/*Size*/
+	width:290px;
+	/*position*/
+	position:absolute;
+	top:700px;
+	left:90px;
+	margin-bottom: 20px;
+	
+}
+
+.spotify_logo:hover { /*Logo Animation*/
+	opacity:0;
+}
+
+.intra_4 {
+	/*Text Style*/
+	font-weight:bolder;
+	font-size:50px;
+	/*Position*/
+	position:absolute;
+	bottom:-500px;
+}
+
+#question {  /*Styles Form*/
+	/*Fixes position*/
+	position:absolute;
+	left:80px;
+	top:210px;
+	margin-bottom:100px;
+}
+
+
+/*Loads background image*/
+.question {
+	background-image:url("Images/background.jpg");
+    height: 100%;
+	width: 100%;
+}
+
+/*Styles Forum*/
+.form {       /*Takes away border*/
+	border:0;
+}
+
+/*Hospital Image*/
+.hospital { 
+	/*Sets Position*/
+	position:absolute;
+	top:200px;
+	right:60px;
+	/*Creates Size*/
+	width:500px;
+	height:250px;
+}
+
+/*Ranchdale Image*/
+.ranchdale { 
+	/*Sets Position*/
+	position:absolute;
+	top:500px;
+	right:740px;
+	/*Creates Size*/
+	width:180px;
+	height:115px;
+}
+
+/*Roywood Image*/
+.roywood { 
+	/*Sets Position*/
+	position:absolute;
+	top:500px;
+	right:505px;
+	/*Creates Size*/
+	width:180px;
+	height:115px;
+}
+
+/*Donview Image*/
+.donview { 
+	/*Sets Position*/
+	position:absolute;
+	top:500px;
+	right:270px;
+	/*Creates Size*/
+	width:180px;
+	height:115px;
+}
+
+/*VPCI Image*/
+.vpci { 
+	/*Sets Position*/
+	position:absolute;
+	top:500px;
+	right:30px;
+	/*Creates Size*/
+	width:180px;
+	height:115px;
+}
+
+/*Pizza Image*/
+.pizza {
+	/*Sets Position*/
+	position:absolute;
+	top:650px;
+	right:250px;
+	/*Creates Size*/
+	width:300px;
+	height:300px;
+	
+}
+
+.switch {
+	/*Set Position*/
+	position:absolute;
+	top:1000px;
+	right:100px;
+	/*Creates Size*/
+	width:225px;
+	height:120px;
+}
+
+/*Ib Image*/
+.ib { 
+	/*Sets Position*/
+	position:absolute;
+	top:1150px;
+	right:370px;
+	margin-bottom:30px;
+	/*Creates Size*/
+	width:400px;
+	height:100px;
+}
+
+.one {
+	/*Sets Position*/
+	position:absolute;
+	top:500px;
+	right:700px;
+}
+
+.two {
+	/*Sets Position*/
+	position:absolute;
+	top:500px;
+	right:460px;
+}
+
+.three {
+	/*Sets Position*/
+	position:absolute;
+	top:500px;
+	right:220px;
+}
+
+.assassin {
+	/*Dimensions of image*/
+	width:390px;
+	height:300px;
+	/*Position*/
+	position:absolute;
+	top:480px;
+	right:350px;
+	
+}
+
+.among {
+	/*Dimensions*/
+	width:320px;
+	height:290px;
+	/*Position*/
+	position:absolute;
+	top:480px;
+	right:70px;
+}
+
+.ball {
+	/*Dimensions*/
+	width:400px;
+	height:250px;
+	/*Position*/
+	position:absolute;
+	top:200px;
+	right:70px;
+}
+	
+.nba {
+	/*Dimensions*/
+	width:550px;
+	height:280px;
+	/*Position*/
+	position:absolute;
+	top:780px;
+	right:70px;
+}
+
+.drake {
+	/*Dimensions*/
+	height:200px;
+	width:250px;
+	/*Position*/
+	position:absolute;
+	top:1100px;
+	right:70px;
+	margin-bottom:40px;
+}	
+
+.smoke {
+	/*Dimensions*/
+	height:200px;
+	width:250px;
+	/*Position*/
+	position:absolute;
+	top:1100px;
+	right:350px;
+	margin-bottom:40px;
+}
+
+.tecca {
+	/*Dimensions*/
+	height:200px;
+	width:250px;
+	/*Position*/
+	position:absolute;
+	top:1100px;
+	right:630px;
+	margin-bottom:40px;
+}		
+	
+.question_guy {
+	/*Dimensions*/
+	height:300px;
+	width:400px;
+	/*Position*/
+	position:absolute;
+	top:200px;
+	right:60px;
+}
+	
+.mail_logo {
+	/*Dimensions*/
+	width:400px;
+	height:200px;
+	/*Position*/
+	position:absolute;
+	top:700px;
+	right:80px;
+}
+	
+/*Lists of references*/
+.lst_references {
+	/*Position*/
+	position:absolute;
+	top:200px;
+	left:80px;
+	margin-bottom:20px;
+}
+
+/*Creates Validator*/
+#validator {
+	position:absolute;
+	top:30px;
+	right:180px;
+}
+
+/*Create Css validator*/
+#validator_css {
+	position:absolute;
+	top:30px;
+	right:10px;
+}
+
+
+	
+	
+
